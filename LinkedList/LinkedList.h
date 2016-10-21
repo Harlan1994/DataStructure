@@ -81,12 +81,6 @@ Status getElem(LinkedList &L, int i, ElemType *e) {
     if (i < 1)return ERROR;
     LinkedList p = L->next;
     int j = 1;
-
-
-
-
-
-
     while (p && j < i) {
         j++;
         p = p->next;

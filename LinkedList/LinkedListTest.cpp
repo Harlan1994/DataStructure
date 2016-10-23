@@ -10,13 +10,15 @@ int main() {
     LinkedList L;
     init(L);
 
+    printf("*****************************\n");
+    printf("*         1¡¢²åÈë            *\n");
+    printf("*         2¡¢É¾³ý            *\n");
+    printf("*         3¡¢´òÓ¡            *\n");
+    printf("*         4¡¢ÍË³ö            *\n");
+    printf("******************************\n");
+
     while (true) {
-        printf("*****************************\n");
-        printf("*         1¡¢²åÈë            *\n");
-        printf("*         2¡¢É¾³ý            *\n");
-        printf("*         3¡¢´òÓ¡            *\n");
-        printf("*         4¡¢ÍË³ö            *\n");
-        printf("******************************\n");
+       printf("LinkedList>");
 
         int op;
         scanf("%d", &op);

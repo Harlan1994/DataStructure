@@ -184,7 +184,7 @@ Status nextElem(LinkedList &L, ElemType cur_e, ElemType *next_e) {
  * @param e
  * @return OK if succeeded, ERROR if errors occurred.
  */
-Status insert(LinkedList L, int i, ElemType e) {
+Status insert(LinkedList &L, int i, ElemType e) {
     int j = 0;
     LinkedList s, p = L;
     while (p && j < i - 1) {

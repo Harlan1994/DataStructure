@@ -11,37 +11,37 @@ int main() {
     init(&L);
     while (true) {
         printf("*****************************\n");
-        printf("*         1¡¢²åÈë            *\n");
-        printf("*         2¡¢É¾³ı            *\n");
-        printf("*         3¡¢´òÓ¡            *\n");
-        printf("*         4¡¢ÍË³ö            *\n");
+        printf("*         1ã€æ’å…¥            *\n");
+        printf("*         2ã€åˆ é™¤            *\n");
+        printf("*         3ã€æ‰“å°            *\n");
+        printf("*         4ã€é€€å‡º            *\n");
         printf("******************************\n");
         int op;
         scanf("%d", &op);
         switch (op) {
             case 1: {
-                printf("ÇëÊäÈë²åÈëÎ»ÖÃºÍ²åÈëµÄÖµ£¨¿Õ¸ñ¸ô¿ª£©£º\n");
+                printf("è¯·è¾“å…¥æ’å…¥ä½ç½®å’Œæ’å…¥çš„å€¼ï¼ˆç©ºæ ¼éš”å¼€ï¼‰ï¼š\n");
                 int i;
                 ElemType e;
                 scanf("%d %d", &i, &e);
                 Status result = insertElem(&L, i, e);
-                if (result == OK)printf("²åÈë³É¹¦¡£\n");
-                printf("ĞòÁĞÎª£º\n");
+                if (result == OK)printf("æ’å…¥æˆåŠŸã€‚\n");
+                printf("åºåˆ—ä¸ºï¼š\n");
                 traverse(&L);
                 break;
             }
             case 2: {
-                printf("ÇëÊäÈëÉ¾³ıµÄÖµµÄÎ»ÖÃ£º");
+                printf("è¯·è¾“å…¥åˆ é™¤çš„å€¼çš„ä½ç½®ï¼š");
                 int j;
                 ElemType e1;
                 scanf("%d", &j);
                 Status result1 = deleteElem(&L, j, &e1);
-                if (result1 == OK)printf("É¾³ı³É¹¦¡£\n");
-                printf("ÄúÉ¾³ıµÄÖµÎª e = %d\n", e1);
+                if (result1 == OK)printf("åˆ é™¤æˆåŠŸã€‚\n");
+                printf("æ‚¨åˆ é™¤çš„å€¼ä¸º e = %d\n", e1);
                 break;
             }
             case 3:{
-                printf("ĞòÁĞÎª£º\n");
+                printf("åºåˆ—ä¸ºï¼š\n");
                 traverse(&L);
                 break;
             }

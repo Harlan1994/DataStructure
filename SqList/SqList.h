@@ -1,6 +1,6 @@
-///////////////////////////////////
+//
 // Created by Harlan on 2016/10/15.
-///////////////////////////////////
+// 顺序表变长版本
 
 #ifndef DATASTRUCTURE_SQLIST_H
 #define DATASTRUCTURE_SQLIST_H

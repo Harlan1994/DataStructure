@@ -3,5 +3,5 @@ project(DataStructure)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES Attention/test.cpp)
+set(SOURCE_FILES SList/SListTest.cpp)
 add_executable(DataStructure ${SOURCE_FILES})
